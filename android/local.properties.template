@@ -1,0 +1,5 @@
+# Configuración local de API Keys para Android
+# IMPORTANTE: Este archivo no debe subirse a Git
+# Agrega tu clave API de Google Maps aquí
+
+GOOGLE_MAPS_API_KEY=TU_CLAVE_GOOGLE_MAPS_AQUI

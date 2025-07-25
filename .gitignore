@@ -47,6 +47,7 @@ app.*.map.json
 # API Keys and sensitive configuration
 # IMPORTANTE: Proteger claves API y configuración sensible
 lib/config/api_keys.dart
+android/local.properties
 .env
 *.env
 config/keys.json

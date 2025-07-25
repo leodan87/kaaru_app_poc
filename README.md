@@ -42,9 +42,21 @@ flutter pub get
 4. Crea credenciales (API Key)
 
 #### Configurar en el proyecto:
+
+**Para Dart/Flutter:**
 1. Ve a `lib/config/`
 2. Copia `api_keys.template.dart` y renómbralo a `api_keys.dart`
 3. Reemplaza `"TU_CLAVE_GOOGLE_MAPS_AQUI"` con tu clave API real
+
+**Para Android:**
+1. Ve a `android/`
+2. Copia `local.properties.template` y renómbralo a `local.properties`
+3. Agrega tu clave API:
+```properties
+GOOGLE_MAPS_API_KEY=TU_CLAVE_API_AQUI
+```
+
+Ejemplo de configuración:
 
 ```dart
 class ApiKeys {

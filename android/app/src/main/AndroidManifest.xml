@@ -36,9 +36,9 @@
             android:name="flutterEmbedding"
             android:value="2" />
 
-        <!-- clave API key para geolocalización -->
+        <!-- clave API key para geolocalización - Valor obtenido de local.properties -->
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDQbRzmEjjjnEM1ogV-vxEUVeXz1va0fx8"/>
+            android:value="${GOOGLE_MAPS_API_KEY}"/>
 
     </application>
     <!-- Required to query activities that can process text, see:
