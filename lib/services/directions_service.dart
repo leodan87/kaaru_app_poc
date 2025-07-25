@@ -5,7 +5,7 @@ import 'package:kaaru_app_poc/models/directions_model.dart';
 import 'package:kaaru_app_poc/config/api_keys.dart';
 
 class DirectionsService {
-  // Ahora obtenemos la clave API desde la configuración centralizada
+  // Obtenemos la clave API desde la configuración centralizada
   final String _apiKey = ApiKeys.googleMapsApiKey;
   final String _baseUrl = ApiKeys.directionsBaseUrl;
 
