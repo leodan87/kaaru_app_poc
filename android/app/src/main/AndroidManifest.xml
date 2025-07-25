@@ -38,7 +38,7 @@
 
         <!-- clave API key para geolocalización -->
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDQbRzmEjjjnEM1ogV-vxEUVeXz1va0fx8"/>
+            android:value="Colocas tu clave API"/>
 
     </application>
     <!-- Required to query activities that can process text, see:
